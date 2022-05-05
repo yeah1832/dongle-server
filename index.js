@@ -7,7 +7,7 @@ const { auth } = require("./middleware/auth");
 const { User } = require("./models/User");
 const { Storage } = require("./models/Storage");
 const config = require("./config/key");
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 8080;
 //application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 //application/json
